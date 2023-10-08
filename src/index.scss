@@ -97,7 +97,14 @@ margin-right: 20px;
 
     //  footer
     footer{
-      margin: 7rem 29rem;
+      // margin: 7rem 29rem;
+       width: 50%;
+      // text-align: center;
+      display: flex;
+      align-items: center !important;
+      justify-content: center;
+      margin: auto;
+  
       >span{
         font-weight: bolder;
       }

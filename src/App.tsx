@@ -88,6 +88,7 @@ const handleClick = () => {
 }
 
   return (
+    <>
     <div className="App">
       
       <div className='top-bar'>
@@ -145,11 +146,11 @@ quotes?
 })
         }
         </>}
-        
+        </div>    
 
-     <footer>Developed By <span>Nazir</span> -devChallenges.io</footer>  
-
-    </div>
+     <footer className='last'>Developed By <span>Nazir</span> -devChallenges.io</footer>  
+</>
+    
   );
 }
 
