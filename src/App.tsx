@@ -1,6 +1,6 @@
 
 import './App.css';
-import React,{useState,useEffect} from 'react';
+import {useState,useEffect} from 'react';
  import ClipLoader from "react-spinners/ClipLoader";
 import { LuRefreshCw } from 'react-icons/lu';
 import { BsArrowRight } from 'react-icons/bs';
