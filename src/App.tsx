@@ -67,7 +67,6 @@ useEffect(() => {
 }, [load])
 
 
-
 const [springs,api] = useSpring(()=>Number({
   from: { rotate: 0 },
   
